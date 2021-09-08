@@ -63,9 +63,10 @@ def helo():
     print ("\033[93m~")
     papazola=input("\033[93m╰╼▪>   \033[96m")
     if papazola == "1" or papazola =="01":
-       gopal("\033[93m buka facebook di kiwi...")
+       gopal("\033[93m salin tautan dibawah ini...")
        gopal("\033[92m jangan lupa login FB Juga Di kiwi...")
-       os.system("xdg-open https://free.facebook.com/?_rdc=1&_rdr")
+       gopal("👉https://free.facebook.com/?_rdc=1&_rdr")
+       gopal("\033[92m dan pastekan ke kiwi browser")
        laksamana()
     elif papazola == "2" or papazola =="02":
          print("\033[92m Subscribe dulu chanel saya...")
@@ -94,7 +95,8 @@ def laksamana():
          sys.exit()
 
 def bagogo():
-    print("\033[93m Jika sudah buka crome web store di kiwi ke tahap selanjutnya")
+    print("\033[93m Jika sudah pastekan tautan di atas ke kiwi ke dan tekan enter")
+    print("\033[92m Jika sudah ke tahap selanjutnya")
     print("\033[92m╔════════════════════════════╗")
     print("║ [1].cari CokieFB di kiwi   ║")
     print("╚════════════════════════════╝")
