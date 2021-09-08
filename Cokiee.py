@@ -115,9 +115,9 @@ def bagogo():
 
 def powersvera():
     print("\033[93m menonton chanel saya...")
-    print("\033[92m╔══════════════════════════════════╗")
+    print("\033[92m╔══════════════════════════════════════════════╗")
     print("║[1].di bagian akir anda tonton aja chanel saya║")
-    print("╚══════════════════════════════════╝")
+    print("╚══════════════════════════════════════════════╝")
     print("╔═════════════╗")
     print("║ [2].keluar  ║")
     print("╚═════════════╝")
