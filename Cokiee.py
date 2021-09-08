@@ -105,7 +105,7 @@ def bagogo():
     print ("\033[93m~")
     megabot=input("\033[93m╰╼▪>   \033[96m")
     if megabot == "1" or megabot =="01":
-       gopal("\033[93m cari di halaman "Telusuri TOKO" crome web store ...")
+       gopal("\033[93m cari di halaman [Telusuri TOKO!] crome web store ...")
        gopal("\033[96m dan Cari 👉FBCookie")
        gopal("\033[96m dan click ["FBCookie")
        gopal("\033[92m [Lalu click tambahkan ke crome]")
