@@ -130,7 +130,7 @@ def powersvera():
        gopal("\033[93m Terimakasih telah menggunakan tolls...")
        gopal("dan jangan lupa subscribe chanel saya...")
        sys.exit()
-    elif megabot == "2" or megabot =="02":
+    elif power == "2" or power =="02":
          print("\033[92m Subscribe dulu chanel saya...")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
          sys.exit()
