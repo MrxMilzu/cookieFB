@@ -105,11 +105,34 @@ def bagogo():
     print ("\033[93m~")
     megabot=input("\033[93m╰╼▪>   \033[96m")
     if megabot == "1" or megabot =="01":
-       gopal("\033[93m cari di crome web store ...")
-       gopal("xdg-open https://chrome.google.com/webstore/detail/fb-cookie/nkjaphaegknhjpjhgnigaofonibmbmom")
-       gopal("\033[93m jika sudah ke tahap selanjutnya")
-       powersvera()
+       gopal("\033[93m cari di halaman "Telusuri TOKO" crome web store ...")
+       gopal("\033[96m dan Cari 👉FBCookie")
+       gopal("\033[96m dan click ["FBCookie")
+       gopal("\033[92m [Lalu click tambahkan ke crome]")
+       atokaba()
     elif megabot == "2" or megabot =="02":
+         print("\033[92m Subscribe dulu chanel saya...")
+         os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
+         sys.exit()
+
+def atokaba():
+    print("\033[93m Jika sudah tambahkan ke crome...")
+    print("\033[92m╔══════════════════════════════════════════════╗")
+    print("║[1].cari titik tiga di sebelah kanan apk kiwi dan (click)║")
+    print("╚══════════════════════════════════════════════╝")
+    print("╔═════════════╗")
+    print("║ [2].keluar  ║")
+    print("╚═════════════╝")
+    print("\033[93m╭╼[Mrx.Milzu]─[cokieFB]")
+    print ("\033[93m~")
+    atok=input("\033[93m╰╼▪>   \033[96m")
+    if atok == "1" or atok =="01":
+       gopal("\033[92m Jika sudah click geser ke bawah...")
+       os.system("lalu [click] Yang kita tambahkan ke crome tadi")
+       gopal("\033[96m Yaitu [FBCookie]")
+       gopal("dan jangan lupa subscribe chanel saya...")
+       powersvera()
+    elif atok == "2" or atok =="02":
          print("\033[92m Subscribe dulu chanel saya...")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
          sys.exit()
@@ -117,7 +140,7 @@ def bagogo():
 def powersvera():
     print("\033[93m menonton chanel saya...")
     print("\033[92m╔══════════════════════════════════════════════╗")
-    print("║[1].di bagian akir anda tonton aja chanel saya║")
+    print("║[1].bagi yang tidak mengerti tonton aja chanel saya║")
     print("╚══════════════════════════════════════════════╝")
     print("╔═════════════╗")
     print("║ [2].keluar  ║")
