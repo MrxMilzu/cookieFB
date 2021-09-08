@@ -21,8 +21,8 @@ def gopal(s):
 def adudu():
     print("""
         ╔═╗╔═╗╦ ╦ ╦ ╔═╗ ╔═╗╔╗      
-        ║   ║  ║║╣  ║ ║_   ║_  ╠╩╗           
-        ║   ║  ║║║  ║ ║    ║   ║  ║
+        ║  ║  ║║╣  ║ ║_   ║_  ╠╩╗           
+        ║  ║  ║║║  ║ ║    ║   ║  ║
         ╚═╝╚═╝╩ ╩ ╩ ╚═╝ ╝   ╚═╝  V.1 """)
 
 def fank():
@@ -43,12 +43,12 @@ def boboiboy():
     print ("\033[93m~")
     coco=input("\033[93m╰╼▪>   \033[96m")
     if coco == "1" or coco =="01":
-       aink("\033[93m download dulu kiwi browser.")
+       gopal("\033[93m download dulu kiwi browser.")
        os.system("xdg-open https://play.google.com/store/apps/details?id=com.kiwibrowser.browser")
-       aink("\033[92m Jika sudah ke tahap selanjutnya")
+       gopal("\033[92m Jika sudah ke tahap selanjutnya")
        helo()
     elif coco == "2" or coco =="02":
-         aink("\033[92m Subscribe dulu chanel saya...")
+         gopal("\033[92m Subscribe dulu chanel saya...")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
          exit()
 def helo():
@@ -63,12 +63,12 @@ def helo():
     print ("\033[93m~")
     papazola=input("\033[93m╰╼▪>   \033[96m")
     if papazola == "1" or papazola =="01":
-       aink("\033[93m buka facebook di kiwi...")
-       aink("\033[93m jangan lupa login FB Juga...")
+       gopal("\033[93m buka facebook di kiwi...")
+       gopal("\033[93m jangan lupa login FB Juga...")
        os.system("xdg-open https://free.facebook.com/?_rdc=1&_rdr")
        laksamana()
     elif coco == "2" or coco =="02":
-         aink("\033[92m Subscribe dulu chanel saya...")
+         gopal("\033[92m Subscribe dulu chanel saya...")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
          exit()
 def laksamana():
@@ -83,11 +83,11 @@ def laksamana():
     print ("\033[93m~")
     ochobot=input("\033[93m╰╼▪>   \033[96m")
     if ochobot == "1" or ochobot =="01":
-       aink("\033[93m buka cookie di kiwi...")
+       gopal("\033[93m buka cookie di kiwi...")
        os.system("chrome-extension://nkjaphaegknhjpjhgnigaofonibmbmom/index.html")
        laksamana()
     elif coco == "2" or coco =="02":
-         aink("\033[92m Subscribe dulu chanel saya...")
+         gopal("\033[92m Subscribe dulu chanel saya...")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
          exit()
 
