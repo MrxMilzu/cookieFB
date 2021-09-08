@@ -18,4 +18,4 @@
   python Cokiee.py
   ```
 
-#Thanks whatching
+# Thanks whatching
