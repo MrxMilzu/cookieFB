@@ -18,7 +18,7 @@ def gopal(s):
         sys.stdout.flush()
         time.sleep(1./300)
 def adudu():
-    print("""
+    print("""\033[96m
         ╔═╗╔═╗╦ ╦ ╦ ╔═╗ ╔═╗╔╗      
         ║  ║ ║║╣  ║ ║_  ║_ ╠╩╗           
         ║  ║ ║║║  ║ ║   ║  ║ ║
@@ -64,7 +64,7 @@ def helo():
     papazola=input("\033[93m╰╼▪>   \033[96m")
     if papazola == "1" or papazola =="01":
        gopal("\033[93m buka facebook di kiwi...")
-       gopal("\033[93m jangan lupa login FB Juga...")
+       gopal("\033[92m jangan lupa login FB Juga Di kiwi...")
        os.system("xdg-open https://free.facebook.com/?_rdc=1&_rdr")
        laksamana()
     elif papazola == "2" or papazola =="02":
