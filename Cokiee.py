@@ -32,9 +32,9 @@ def fank():
         ip = " "
     print("\033[90m[\033[96m▪\033[90m]\033[97mIP ANDA\033[93m : " + ip)
 def boboiboy():
-    print("\033[92m╔════════════╗")
-    print("║ [1].cokie  ║")
-    print("╚════════════╝")
+    print("\033[92m╔════════════════════════════╗")
+    print("║ [1].cara mendapatkan cokie FB  ║")
+    print("╚════════════════════════════╝")
     print("╔════════════╗")
     print("║ [2].keluar ║")
     print("╚════════════╝")
@@ -95,7 +95,7 @@ def laksamana():
 def bagogo():
     print("\033[93m Jika sudah buka crome web store di kiwi ke tahap selanjutnya")
     print("\033[92m╔════════════════════════════╗")
-    print("║ [1].cari CokieFB di kiwi  ║")
+    print("║ [1].cari CokieFB di kiwi   ║")
     print("╚════════════════════════════╝")
     print("╔═════════════╗")
     print("║ [2].keluar  ║")
@@ -115,9 +115,9 @@ def bagogo():
 
 def powersvera():
     print("\033[93m menonton chanel saya...")
-    print("\033[92m╔════════════════════╗")
-    print("║ [1].di bagian akir anda tonton aja chanel saya  ║")
-    print("╚════════════════════╝")
+    print("\033[92m╔══════════════════════════════════╗")
+    print("║[1].di bagian akir anda tonton aja chanel saya║")
+    print("╚══════════════════════════════════╝")
     print("╔═════════════╗")
     print("║ [2].keluar  ║")
     print("╚═════════════╝")
