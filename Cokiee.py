@@ -17,12 +17,11 @@ def gopal(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
-
 def adudu():
     print("""
         ╔═╗╔═╗╦ ╦ ╦ ╔═╗ ╔═╗╔╗      
-        ║  ║  ║║╣  ║ ║_   ║_  ╠╩╗           
-        ║  ║  ║║║  ║ ║    ║   ║  ║
+        ║║  ║║╣  ║ ║_   ║_  ╠╩╗           
+        ║║  ║║║  ║ ║    ║   ║  ║
         ╚═╝╚═╝╩ ╩ ╩ ╚═╝ ╝   ╚═╝  V.1 """)
 
 def fank():
@@ -33,12 +32,12 @@ def fank():
         ip = " "
     print("\033[90m[\033[96m▪\033[90m]\033[97mIP ANDA\033[93m : " + ip)
 def boboiboy():
-    print("╔════════╗")
+    print("\033[92m╔════════════╗")
     print("║ [1].cokie   ║")
-    print("╚════════╝")
-    print("╔════════╗")
+    print("╚════════════╝")
+    print("╔════════════╗")
     print("║ [2].keluar  ║")
-    print("╚════════╝")
+    print("╚════════════╝")
     print("\033[93m╭╼[Mrx.Milzu]─[cokieFB]")
     print ("\033[93m~")
     coco=input("\033[93m╰╼▪>   \033[96m")
@@ -48,17 +47,18 @@ def boboiboy():
        gopal("\033[92m Jika sudah ke tahap selanjutnya")
        helo()
     elif coco == "2" or coco =="02":
-         gopal("\033[92m Subscribe dulu chanel saya...")
+         print("\033[92m Subscribe dulu chanel saya...")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
-         exit()
+         sys.exit()
+
 def helo():
     print("\033[93m Jika sudah download kiwi ke tahap selanjutnya")
-    print("╔══════════════╗")
+    print("\033[92m╔════════════════════╗")
     print("║ [1].buka FB di kiwi  ║")
-    print("╚══════════════╝")
-    print("╔════════╗")
+    print("╚════════════════════╝")
+    print("╔════════════╗")
     print("║ [2].keluar  ║")
-    print("╚════════╝")
+    print("╚════════════╝")
     print("\033[93m╭╼[Mrx.Milzu]─[cokieFB]")
     print ("\033[93m~")
     papazola=input("\033[93m╰╼▪>   \033[96m")
@@ -67,29 +67,73 @@ def helo():
        gopal("\033[93m jangan lupa login FB Juga...")
        os.system("xdg-open https://free.facebook.com/?_rdc=1&_rdr")
        laksamana()
-    elif coco == "2" or coco =="02":
-         gopal("\033[92m Subscribe dulu chanel saya...")
+    elif papazola == "2" or papazola =="02":
+         print("\033[92m Subscribe dulu chanel saya...")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
-         exit()
+         sys.exit()
+
 def laksamana():
     print("\033[93m Jika sudah buka facebook di kiwi ke tahap selanjutnya")
-    print("╔══════════════╗")
-    print("║ [1].dapatkan cookie  ║")
-    print("╚══════════════╝")
+    print("\033[92m╔══════════════════════════════╗")
+    print("║ [1].buka crome web store di kiwi  ║")
+    print("╚══════════════════════════════╝")
+    print("╔════════════╗")
+    print("║ [2].keluar  ║")
+    print("╚════════════╝")
+    print("\033[93m╭╼[Mrx.Milzu]─[cokieFB]")
+    print ("\033[93m~")
+    ochobot=input("\033[93m╰╼▪>   \033[96m")
+    if ochobot == "1" or ochobot =="01":
+       gopal("\033[93m buka crome web store di kiwi...")
+       os.system("https://chrome.google.com/webstore/category/extensions")
+       bagogo()
+    elif ochobot == "2" or ochobot =="02":
+         print("\033[92m Subscribe dulu chanel saya...")
+         os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
+         sys.exit()
+
+def bagogo():
+    print("\033[93m Jika sudah buka crome web store di kiwi ke tahap selanjutnya")
+    print("\033[92m╔════════════════════╗")
+    print("║ [1].cari CokieFB di kiwi  ║")
+    print("╚════════════════════╝")
     print("╔════════╗")
     print("║ [2].keluar  ║")
     print("╚════════╝")
     print("\033[93m╭╼[Mrx.Milzu]─[cokieFB]")
     print ("\033[93m~")
-    ochobot=input("\033[93m╰╼▪>   \033[96m")
-    if ochobot == "1" or ochobot =="01":
+    megabot=input("\033[93m╰╼▪>   \033[96m")
+    if megabot == "1" or megabot =="01":
        gopal("\033[93m buka cookie di kiwi...")
-       os.system("chrome-extension://nkjaphaegknhjpjhgnigaofonibmbmom/index.html")
-       laksamana()
-    elif coco == "2" or coco =="02":
-         gopal("\033[92m Subscribe dulu chanel saya...")
+       os.system("xdg-open https://chrome.google.com/webstore/detail/fb-cookie/nkjaphaegknhjpjhgnigaofonibmbmom")
+       gopal("\033[93m jika sudah ke tahap selanjutnya")
+       powersvera()
+    elif megabot == "2" or megabot =="02":
+         print("\033[92m Subscribe dulu chanel saya...")
          os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
-         exit()
+         sys.exit()
+
+def powersvera():
+    print("\033[93m menonton chanel saya...")
+    print("\033[92m╔════════════════════╗")
+    print("║ [1].di bagian akir anda tonton aja chanel saya  ║")
+    print("╚════════════════════╝")
+    print("╔════════╗")
+    print("║ [2].keluar  ║")
+    print("╚════════╝")
+    print("\033[93m╭╼[Mrx.Milzu]─[cokieFB]")
+    print ("\033[93m~")
+    power=input("\033[93m╰╼▪>   \033[96m")
+    if power == "1" or power =="01":
+       gopal("\033[93m buka cookie di kiwi...")
+       os.system("xdg-open https://youtu.be/QF0jMxC6CkE")
+       gopal("\033[93m Terimakasih telah menggunakan tolls...")
+       gopal("dan jangan lupa subscribe chanel saya...")
+       sys.exit()
+    elif megabot == "2" or megabot =="02":
+         print("\033[92m Subscribe dulu chanel saya...")
+         os.system("xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ")
+         sys.exit()
 
 if __name__=="__main__":
      ying()
