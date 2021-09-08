@@ -107,7 +107,7 @@ def bagogo():
     if megabot == "1" or megabot =="01":
        gopal("\033[93m cari di halaman [Telusuri TOKO!] crome web store ...")
        gopal("\033[96m dan Cari 👉FBCookie")
-       gopal("\033[96m dan click ["FBCookie")
+       gopal("\033[96m dan click [FBCookie]")
        gopal("\033[92m [Lalu click tambahkan ke crome]")
        atokaba()
     elif megabot == "2" or megabot =="02":
