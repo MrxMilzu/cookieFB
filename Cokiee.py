@@ -85,7 +85,8 @@ def laksamana():
     ochobot=input("\033[93m╰╼▪>   \033[96m")
     if ochobot == "1" or ochobot =="01":
        gopal("\033[93m buka crome web store di kiwi...")
-       os.system("https://chrome.google.com/webstore/category/extensions")
+       gopal("\033[96m Salin lah tautan dibawah ini dan copy&paste")
+       gopal("👉https://chrome.google.com/webstore/category/extensions")
        bagogo()
     elif ochobot == "2" or ochobot =="02":
          print("\033[92m Subscribe dulu chanel saya...")
@@ -104,8 +105,8 @@ def bagogo():
     print ("\033[93m~")
     megabot=input("\033[93m╰╼▪>   \033[96m")
     if megabot == "1" or megabot =="01":
-       gopal("\033[93m buka cookie di kiwi...")
-       os.system("xdg-open https://chrome.google.com/webstore/detail/fb-cookie/nkjaphaegknhjpjhgnigaofonibmbmom")
+       gopal("\033[93m cari di crome web store ...")
+       gopal("xdg-open https://chrome.google.com/webstore/detail/fb-cookie/nkjaphaegknhjpjhgnigaofonibmbmom")
        gopal("\033[93m jika sudah ke tahap selanjutnya")
        powersvera()
     elif megabot == "2" or megabot =="02":
