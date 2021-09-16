@@ -18,11 +18,12 @@ def gopal(s):
         sys.stdout.flush()
         time.sleep(1./300)
 def adudu():
+    time.sleep(0.3)
     print("""\033[96m
         ╔═╗╔═╗╦ ╦ ╦ ╔═╗ ╔═╗╔╗      
         ║  ║ ║║╣  ║ ║_  ║_ ╠╩╗           
         ║  ║ ║║║  ║ ║   ║  ║ ║
-        ╚═╝╚═╝╩ ╩ ╩ ╚═╝ ╝  ╚═╝  By.Milzu-TC """)
+        ╚═╝╚═╝╩ ╩ ╩ ╚═╝ ╝  ╚═╝  By.Taufiq hidayat """)
 
 def fank():
     a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","userAgent":"Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.39 Mobile Safari/537.36"}).json()
@@ -31,13 +32,37 @@ def fank():
     except KeyError:
         ip = " "
     print("\033[90m[\033[96m▪\033[90m]\033[97mIP ANDA\033[93m : " + ip)
+Ussername = "fiqhinoob"
+
+loop = 'true'
+while (loop == 'true'):
+    ussername = input("\n\033[93m[\033[92m?\033[93m] \033[95mLogin sebagai\033[93m:\033[93m ")
+    if (ussername == Ussername):
+            loop = 'false'
+    else:
+            print("[\033[91m!\033[93m]\033[93mSalah") 
+            exit()
+Password = "V.I.P"
+
+loop = 'true'
+while (loop == 'true'):
+    passcode = input("\033[1;93m[?] \033[92mPassword\033[95m:\033[93m ")
+    if (passcode == Password):
+            print("Login Suksesfully...")
+            loop = 'false'
+    else:
+            print("[\033[91m!\033[93m]\033[93mSalah")
+            exit()
 def boboiboy():
+    time.sleep(0.1)
     print("\033[92m╔════════════════════════════════╗")
     print("║ [1].cara mendapatkan cokie FB  ║")
     print("╚════════════════════════════════╝")
     print("╔════════════╗")
     print("║ [2].keluar ║")
     print("╚════════════╝")
+    time.sleep(0.1)
+
     print("\033[93m╭╼[Mrx.Milzu]─[cokieFB]")
     print ("\033[93m~")
     coco=input("\033[93m╰╼▪>   \033[96m")
