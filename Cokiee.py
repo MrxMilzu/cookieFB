@@ -19,7 +19,7 @@ def gopal(s):
         time.sleep(1./300)
 def adudu():
     time.sleep(0.3)
-    print("""\033[96m
+    gopal("""\033[96m
         ╔═╗╔═╗╦ ╦ ╦ ╔═╗ ╔═╗╔╗      
         ║  ║ ║║╣  ║ ║_  ║_ ╠╩╗           
         ║  ║ ║║║  ║ ║   ║  ║ ║
@@ -31,7 +31,7 @@ def fank():
         ip = a["query"]
     except KeyError:
         ip = " "
-    print("\033[90m[\033[96m▪\033[90m]\033[97mIP ANDA\033[93m : " + ip)
+    gopal("\033[90m[\033[96m▪\033[90m]\033[97mIP ANDA\033[93m : " + ip)
 Ussername = "fiqhinoob"
 
 loop = 'true'
@@ -40,7 +40,7 @@ while (loop == 'true'):
     if (ussername == Ussername):
             loop = 'false'
     else:
-            print("[\033[91m!\033[93m]\033[93mSalah") 
+            gopal("[\033[91m!\033[93m]\033[93mSalah") 
             exit()
 Password = "V.I.P"
 
@@ -48,23 +48,23 @@ loop = 'true'
 while (loop == 'true'):
     passcode = input("\033[1;93m[?] \033[92mPassword\033[95m:\033[93m ")
     if (passcode == Password):
-            print("Login Suksesfully...")
+            gopal("Login Suksesfully...")
             loop = 'false'
     else:
-            print("[\033[91m!\033[93m]\033[93mSalah")
+            gopal("[\033[91m!\033[93m]\033[93mSalah")
             exit()
 def boboiboy():
     time.sleep(0.1)
-    print("\033[92m╔════════════════════════════════╗")
-    print("║ [1].cara mendapatkan cokie FB  ║")
-    print("╚════════════════════════════════╝")
-    print("╔════════════╗")
-    print("║ [2].keluar ║")
-    print("╚════════════╝")
+    gopal("\033[92m╔════════════════════════════════╗")
+    gopal("║ [1].cara mendapatkan cokie FB  ║")
+    gopal("╚════════════════════════════════╝")
+    gopal("╔════════════╗")
+    gopal("║ [2].keluar ║")
+    gopal("╚════════════╝")
     time.sleep(0.1)
 
-    print("\033[93m╭╼[Mrx.Milzu]─[cokieFB]")
-    print ("\033[93m~")
+    gopal("\033[93m╭╼[Mrx.Milzu]─[cokieFB]")
+    gopal ("\033[93m~")
     coco=input("\033[93m╰╼▪>   \033[96m")
     if coco == "1" or coco =="01":
        gopal("\033[93m download dulu kiwi browser.")
