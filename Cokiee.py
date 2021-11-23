@@ -32,7 +32,7 @@ def fank():
     except KeyError:
         ip = " "
     gopal("\033[90m[\033[96m▪\033[90m]\033[97mIP ANDA\033[93m : " + ip)
-Ussername = "fiqhinoob"
+Ussername = "FIQHI"
 
 loop = 'true'
 while (loop == 'true'):
@@ -42,7 +42,7 @@ while (loop == 'true'):
     else:
             gopal("[\033[91m!\033[93m]\033[93mSalah") 
             exit()
-Password = "V.I.P"
+Password = "CYBERPUNK"
 
 loop = 'true'
 while (loop == 'true'):
