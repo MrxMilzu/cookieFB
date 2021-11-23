@@ -19,7 +19,7 @@
   ```
 ##### Ter Engkrypt Dengan User Admin Pembuat dan dibutuhkan Password
 
-***Bila Tidak Mengetahui Pasword[<~]***
-***Segera Ke Chanel Saya***[✓]
+* ***Bila Tidak Mengetahui Pasword[<~]***
+* ***Segera Ke Chanel Saya***[✓]
 
 # Thanks whatching
