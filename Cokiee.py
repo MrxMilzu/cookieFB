@@ -23,7 +23,7 @@ def adudu():
         ╔═╗╔═╗╦ ╦ ╦ ╔═╗ ╔═╗╔╗      
         ║  ║ ║║╣  ║ ║_  ║_ ╠╩╗           
         ║  ║ ║║║  ║ ║   ║  ║ ║
-        ╚═╝╚═╝╩ ╩ ╩ ╚═╝ ╝  ╚═╝  By.Taufiq hidayat """)
+        ╚═╝╚═╝╩ ╩ ╩ ╚═╝ ╝  ╚═╝  By.Milzu """)
 
 def fank():
     a=requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","userAgent":"Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.39 Mobile Safari/537.36"}).json()
