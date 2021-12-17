@@ -36,7 +36,7 @@ Ussername = "FIQHI"
 
 loop = 'true'
 while (loop == 'true'):
-    ussername = input("\n\033[93m[\033[92m🔒\033[93m] \033[95mLogin sebagai\033[93m:\033[93m ")
+    ussername = input("\n\033[93m[\033[92mID\033[93m] \033[95mLogin sebagai\033[93m:\033[93m ")
     if (ussername == Ussername):
             loop = 'false'
     else:
@@ -46,7 +46,7 @@ Password = "CYBERPUNK"
 
 loop = 'true'
 while (loop == 'true'):
-    passcode = input("\033[1;93m[?] \033[92mPassword\033[95m:\033[93m ")
+    passcode = input("\033[1;93m[🔒] \033[92mPassword\033[95m:\033[93m ")
     if (passcode == Password):
             gopal("Login Suksesfully...")
             loop = 'false'
