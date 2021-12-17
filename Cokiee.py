@@ -36,7 +36,7 @@ Ussername = "FIQHI"
 
 loop = 'true'
 while (loop == 'true'):
-    ussername = input("\n\033[93m[\033[92m?\033[93m] \033[95mLogin sebagai\033[93m:\033[93m ")
+    ussername = input("\n\033[93m[\033[92m🔒\033[93m] \033[95mLogin sebagai\033[93m:\033[93m ")
     if (ussername == Ussername):
             loop = 'false'
     else:
