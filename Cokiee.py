@@ -89,9 +89,9 @@ def helo():
     papazola=input("\033[93m╰╼▪>   \033[96m")
     if papazola == "1" or papazola =="01":
        gopal("\033[93m salin tautan dibawah ini...")
-       gopal("\033[92m jangan lupa login FB Juga Di kiwi...")
-       gopal("👉https://free.facebook.com/?_rdc=1&_rdr")
-       gopal("\033[92m dan pastekan ke kiwi browser")
+       gopal("\033[96m👉https://free.facebook.com/?_rdc=1&_rdr")
+       gopal("\033[92m dan tempelkan link tersebut ke \033[96mkiwi browser")
+       gopal("\033[93m jangan lupa login \033[92mFACEBOOK \033[93mJuga Di kiwi...")
        laksamana()
     elif papazola == "2" or papazola =="02":
          print("\033[92m Subscribe dulu chanel saya...")
@@ -133,9 +133,9 @@ def bagogo():
     megabot=input("\033[93m╰╼▪>   \033[96m")
     if megabot == "1" or megabot =="01":
        gopal("\033[93m cari di halaman [Telusuri TOKO!] crome web store ...")
-       gopal("\033[96m dan Cari 👉FBCookie")
-       gopal("\033[96m dan click [FBCookie]")
-       gopal("\033[92m [Lalu click tambahkan ke crome]")
+       gopal("\033[92m dan Cari \033[92m👉FBCookie")
+       gopal("\033[93m dan click \033[90m[\033[92mFBCookie\033[90m]")
+       gopal("\033[90m [\033[93mLalu \033[92mclick tambahkan ke crome\033[90m]")
        atokaba()
     elif megabot == "2" or megabot =="02":
          print("\033[92m Subscribe dulu chanel saya...")
@@ -155,9 +155,9 @@ def atokaba():
     atok=input("\033[93m╰╼▪>   \033[96m")
     if atok == "1" or atok =="01":
        gopal("\033[92m Jika sudah click geser ke bawah...")
-       os.system("lalu [click] Yang kita tambahkan ke crome tadi")
-       gopal("\033[96m Yaitu [FBCookie]")
-       gopal("dan jangan lupa subscribe chanel saya...")
+       os.system("lalu \033[90m[\033[92mclick\033[90m] \033[93mYang kita tambahkan ke crome tadi")
+       gopal("\033[96m Yaitu \033[90m[\033[92mFBCookie\033[90]")
+       gopal("\033[92m Sekian dari saya dan jangan lupa \033[91msubscribe \033[92mchanel saya...")
        powersvera()
     elif atok == "2" or atok =="02":
          print("\033[92m Subscribe dulu chanel saya...")
